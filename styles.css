@@ -87,6 +87,23 @@ a:hover {
     font-size: 20px; /* Increase font size for mobile */
     padding: 15px 30px; /* Increase padding for larger buttons on mobile */
   }
+
+  .buttonGroup1 {
+    /* display: flex; */
+    position: fixed; /* Fix the position */
+    bottom: 17%; /* Adjust as needed */
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  .buttonGroup2 {
+    /* display: flex; */
+    position: fixed; /* Fix the position */
+    bottom: 10%; /* Adjust as needed */
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
 }
 
 
