@@ -54,7 +54,7 @@ a:hover {
 .buttonGroup1 {
   /* display: flex; */
   position: fixed; /* Fix the position */
-  bottom: 30%; /* Adjust as needed */
+  bottom: 33%; /* Adjust as needed */
   left: 0;
   right: 0;
   text-align: center;
