@@ -83,6 +83,15 @@ a:hover {
 
 /* Media query for mobile phones */
 @media only screen and (max-width: 600px) {
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    font-size: 160%;
+  }
+
   .buttonContainer button {
     font-size: 20px; /* Increase font size for mobile */
     padding: 15px 30px; /* Increase padding for larger buttons on mobile */
