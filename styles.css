@@ -1,0 +1,92 @@
+/* Reset some default browser styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the container */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  font-size:x-large;
+}
+
+/* Style the header */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Style the list */
+ul {
+  list-style-type: none;
+}
+
+/* Style list items */
+li {
+  margin-bottom: 10px;
+}
+
+/* Style the links */
+a {
+  color: #007bff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Change link color on hover */
+a:hover {
+  color: #0056b3;
+}
+
+/* Styles for button containers */
+#buttonContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.buttonGroup1 {
+  /* display: flex; */
+  position: fixed; /* Fix the position */
+  bottom: 30%; /* Adjust as needed */
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.buttonGroup2 {
+  /* display: flex; */
+  position: fixed; /* Fix the position */
+  bottom: 23%; /* Adjust as needed */
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+/* Styles for individual buttons */
+#prevButton,
+#nextButton,
+#randomButton {
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+#randomButton {
+  margin: 0 auto; /* Center the button */
+}
+
+
+/* Media query for mobile phones */
+@media only screen and (max-width: 600px) {
+  .buttonContainer button {
+    font-size: 20px; /* Increase font size for mobile */
+    padding: 15px 30px; /* Increase padding for larger buttons on mobile */
+  }
+}
+
+

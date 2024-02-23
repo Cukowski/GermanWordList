@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>German Vocabulary</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Verben mit Präpositionen</h1>
+
+    <ul id="wordList">
+      <!-- Your word list items will be dynamically added here -->
+    </ul>
+
+    <!-- Display current word number and total words -->
+  <div id="wordCount" class="word-count">1/150</div>
+  <div id="wordInputContainer">
+    <input type="number" id="wordInput" min="1" max="150">
+    <button id="goToWordButton">Go</button>
+  </div>
+
+    <div id="wordContainer">
+      <div id="wordDisplay">
+        <h2 id="word"></h2>
+        <p><strong>Preposition:</strong> <span id="preposition"></span></p>
+        <p><strong>Kasus:</strong> <span id="kasus"></span></p>
+        <p><strong>Bedeutung:</strong> <span id="meaning"></span></p>
+        <p><strong>Beispiel:</strong> <span id="example"></span></p>
+      </div>
+    </div>
+  </div>
+  
+  <div id="buttonContainer">
+    <div class="buttonGroup1">
+      <button id="prevButton">Previous</button>
+      <button id="nextButton">Next</button>
+    </div>
+    <div class="buttonGroup2">
+      <button id="randomButton">Random</button>
+    </div>
+  </div>
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
