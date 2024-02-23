@@ -85,6 +85,7 @@ fetch('words.txt')
 
     randomButton.addEventListener("click", function() {
       const randomIndex = Math.floor(Math.random() * words.length);
+      currentIndex = randomIndex;
       displayWord(randomIndex);
     });
 
@@ -95,7 +96,8 @@ fetch('words.txt')
     goToWordButton.addEventListener("click", function() {
       const wordNumber = parseInt(wordInput.value);
       if (!isNaN(wordNumber) && wordNumber >= 1 && wordNumber <= words.length) {
-        displayWord(wordNumber - 1); // Adjust for 0-based index
+        currentIndex = wordNumber - 1;
+        displayWord(currentIndex); // Adjust for 0-based index
       } else {
         alert("Please enter a valid word number.");
       }
